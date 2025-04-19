@@ -1,9 +1,5 @@
-import matplotlib.pyplot as plt
-import numpy as np
 from shiny.express import input, render, ui
-from shinywidgets import render_plotly
 from waveAddition import *
-
 
 ui.page_opts(title="Wave Addition Tool",
     window_title="Wave Addition")
