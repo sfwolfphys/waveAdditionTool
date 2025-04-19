@@ -7,7 +7,7 @@ ui.page_opts(title="Wave Addition Tool",
 
 with ui.sidebar():
   ui.input_slider("nSources", "Number of sources", min=1, max=20, value=2)
-  ui.input_slider("deltaAdj", "Path difference between adjacent sources", 
+  ui.input_slider("deltaAdj", r"Path difference between adjacent sources (in terms of wavelength)", 
     min=0, max=1, value=0.1, step=0.05)
 
 
